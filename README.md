@@ -46,17 +46,8 @@ Tailwind CSS or Material UI (for design)
 Python (for recommendation engine)
 Pandas, Scikit-learn, Apyori, etc.
 
-+----------------------+         +---------------------+
-|   React Frontend     | <--->   |  Node.js + Express  |
-|  (client)            |         |  (server)           |
-+----------^-----------+         +-----------^---------+
-           |                                 |
-           | REST API                        | Inter-process
-           |                                 | Communication
-+----------v-----------+         +-----------v---------+
-|     MongoDB          |         | Python Recommender  |
-|  (Inventory DB)      |         | Engine (item sugg.) |
-+----------------------+         +---------------------+
+![image](https://github.com/user-attachments/assets/f2b2396c-4ccb-4a63-b514-037c9973151b)
+
 
 ▶️ How to Run the Project
 
